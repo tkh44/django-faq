@@ -1,6 +1,6 @@
 import os
 from distutils.core import setup
-
+from faq import VERSION
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
